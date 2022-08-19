@@ -177,7 +177,9 @@ We use the Nearest Neighbours algorithm to calculate the most similar products f
 Finally, we display the 5 vectors/images with the least Euclidean distance.
 
 
-![image](https://user-images.githubusercontent.com/70193389/185607914-2a397891-acbf-47ef-a250-ba39c1a43c06.png)
+## The following are some of the project screenshots taken:-
+
+![image](https://user-images.githubusercontent.com/70193389/185608340-e26d4173-1a3b-4126-86e8-8910c32abf30.png)
 
 ![image](https://user-images.githubusercontent.com/70193389/185607950-0864bb2f-3345-48e2-be9e-287aea558c45.png)
 
