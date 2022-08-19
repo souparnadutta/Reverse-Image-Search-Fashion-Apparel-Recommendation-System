@@ -73,6 +73,8 @@ Some examples of distance metrics are hamming distance, cosine distance , Euclid
 ## Feature extraction ##
  
   ![image](https://user-images.githubusercontent.com/70193389/185606030-8a7a2a4e-6758-4fe6-8e19-352ba6666041.png)
+  
+  
   Core components of the image search system
                                            
                                           
