@@ -89,7 +89,7 @@ Feature extraction
  
  
  
-##Theory behind CNN##
+## Theory behind CNN ##
  
 A CNN learns how to break down an image and automatically learns which features are important to extract. All CNNs can be divided into a number of important building blocks. Here below they are listed and explained in more detail along with the configurations that we used for
 our network.
@@ -97,7 +97,7 @@ our network.
 ![image](https://user-images.githubusercontent.com/70193389/185606098-f66f848e-84ae-4ae9-807b-f2f6fba243a9.png)
 
 
-##Core components a CNN network##
+## Core components a CNN network ##
 
 ![image](https://user-images.githubusercontent.com/70193389/185606172-0075fd8e-96eb-4773-b44d-a356f6a55612.png)
 
@@ -133,9 +133,9 @@ The data used in this was obtained from kaggle. The dataset includes 44,000 high
 
 
 
- 				A small portion of the dataset
+ A small portion of the dataset
         
-        ![image](https://user-images.githubusercontent.com/70193389/185606338-fc365862-2182-4c88-b516-a51870a1430e.png)
+   ![image](https://user-images.githubusercontent.com/70193389/185606338-fc365862-2182-4c88-b516-a51870a1430e.png)
 
 
 Dataset link: https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset
