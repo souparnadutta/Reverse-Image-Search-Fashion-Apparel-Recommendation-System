@@ -41,18 +41,18 @@ Export Model
 Making of web app
 Generate recommendations
  
-1. Defining the problem statement
+## 1. Defining the problem statement ##
 Create a web app which shows similar fashion products to the product whose image the user uploaded. 
  
-2. Requirement Analysis/Understanding the working of the project
+## 2. Requirement Analysis/Understanding the working of the project ##
  
 In the technical world of computing, reverse image search has been referred to as Content Based Image Retrieval(CBIR). 
  
 This simply means that images are searched for and retrieved, using only the contents of the image, without the assistance of any external labels or metatags. A picture is usually broken down into its defining features, sometimes referred to as feature vectors. The measure of level of feature extraction determines the image content level. The information inherently obtained from an image can be categorized into three levels.
  
-Low level features - Shape, texture, color, spatial information and motion are considered as low level. 
-Middle level features - Organization of different types of objects, scenes and roles represent this category.
-High level features - Include objects or scenes with emotional or religious significance impressions, meaning associated with the combination of perceptual visual contents. 
+**Low level features** - Shape, texture, color, spatial information and motion are considered as low level. 
+**Middle level features** - Organization of different types of objects, scenes and roles represent this category.
+**High level features** - Include objects or scenes with emotional or religious significance impressions, meaning associated with the combination of perceptual visual contents. 
  
 Such features are obtained by applying mathematical algorithms to the image, and as such there are a number of choices as to which one may use. Generally speaking, any image search system can be broken down into four important and distinctive components, which are;
  
@@ -70,7 +70,7 @@ Some examples of distance metrics are hamming distance, cosine distance , Euclid
  
  
 
-Feature extraction
+## Feature extraction ##
  
   ![image](https://user-images.githubusercontent.com/70193389/185606030-8a7a2a4e-6758-4fe6-8e19-352ba6666041.png)
   Core components of the image search system
@@ -89,7 +89,7 @@ Feature extraction
  
  
  
-## Theory behind CNN ##
+### Theory behind CNN ###
  
 A CNN learns how to break down an image and automatically learns which features are important to extract. All CNNs can be divided into a number of important building blocks. Here below they are listed and explained in more detail along with the configurations that we used for
 our network.
@@ -97,7 +97,7 @@ our network.
 ![image](https://user-images.githubusercontent.com/70193389/185606098-f66f848e-84ae-4ae9-807b-f2f6fba243a9.png)
 
 
-## Core components a CNN network ##
+### Core components a CNN network ###
 
 ![image](https://user-images.githubusercontent.com/70193389/185606172-0075fd8e-96eb-4773-b44d-a356f6a55612.png)
 
@@ -128,7 +128,7 @@ Finally, we display the 5 vectors/images with the least Euclidean distance.
  
  
  
-3. Collecting the Data
+## 3. Collecting the Data ##
 The data used in this was obtained from kaggle. The dataset includes 44,000 high resolution images of fashion products. This dataset was used to build a reverse image search engine to create an image based recommendation system.
 
 
@@ -156,7 +156,7 @@ One image represents a vector having 2048 features/dimensions. So ,our complete 
 After getting the output from the model ,we flatten it and normalize it and save and export the model using the pickle module in python for later use (for web app).
 
 
-4. Making of web app/Generating  Recommendations
+## 4. Making of web app/Generating  Recommendations ##
 Finally, for the web application we write some new code and  reuse some code.
 
 I used the streamlit module in python. Streamlit is an open-source Python library that makes it easy to create and share beautiful, custom web apps for machine learning and data science.
