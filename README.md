@@ -104,7 +104,7 @@ our network.
 
 ![image](https://user-images.githubusercontent.com/70193389/185606172-0075fd8e-96eb-4773-b44d-a356f6a55612.png)
 
-**CNN feature detector
+**CNN feature detector**
 
 
 A number of feature detectors are passed over the image, and a set of feature maps obtained as a result. These are the actual image pixels of an image, hence in effect the size of the image is reduced allowing for less computational expense, and while yet still preserving the important
@@ -143,7 +143,7 @@ The data used in this was obtained from kaggle. The dataset includes 44,000 high
 
 Dataset link: https://www.kaggle.com/paramaggarwal/fashion-product-images-dataset
  
-4. Import Model/ Feature Selection/ Generation of recommendations
+4. ## Import Model/ Feature Selection/ Generation of recommendations
 The model I used was ResNet-50 is a convolutional neural network that is 50 layers deep. It is a very popular pre-trained neural network . It has been trained on more than a million images from the ImageNet database.
  
 The network can take the input image having height, width as multiples of 32 and 3 as channel width. Before using ResNet 50 , we convert our images to dimensions of 224 X 224 (normally the standard value but we can modify according to our needs). The input size is 224 ,224 ,3.
