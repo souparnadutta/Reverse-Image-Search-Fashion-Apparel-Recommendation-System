@@ -9,7 +9,8 @@ Reverse Image Search for the Fashion Industry Using Convolutional Neural Network
 
  
  
-Brief Description & History
+## Brief Description & History
+
 With the dawn of online shopping, it is very easy these days to find anything you wish to buy, even from the comfort of your home. You can easily complete a purchase, and have the goods delivered to you. However, even though all these products are readily available at the stores, sometimes, it can be difficult locating them on the websites to initiate the purchases. Part of the problem inherently lies in the manner through which our search mechanisms have conventionally been carried out. Up until now, the most common means we have used to search for goods is one in which we input text into a search box and then the appropriate listings accompanied by pictures of the products are returned to us as output. Notwithstanding, we sometimes inevitably find ourselves in situations where it is difficult to precisely describe the particular item we wish to find in few enough words to fit into a text field search box . This is especially true in the field of fashion.
 Consider an example of when trying to procure a blazer, or a dress of a particular design. There are so many nuances and subtleties that differentiate that blazer from the plethora of others already in existence. Consider trying to describe these all in a text field search box. You may, though, happen to have a similar image to one that you intend to buy, already saved on your phone or laptop. It would be of great convenience, to be able to simply upload this image to the online platform where you are doing your shopping, then have all of the most similar images (in this case, blazers) available on the database of that system,returned to you for you to choose from, with the simple clicks of a few buttons.
  Another practical example of the need for a feature like this is if one were looking through a fashion magazine or if they saw someone throughout their day wearing something they fancied, but did not know the particular name of the clothing item. Quickly snapping and saving a picture which could then be used to search for similar products on online stores would then help this person procure this product for themselves eventually as well. This is the field of computer vision, and it has been extensively explored since the early 1990s . It still attracts a great amount of attention today, and recent efforts in research and integration of using image search technology has played a big role in improving the efficiency of online shopping in the present day.
@@ -103,13 +104,13 @@ our network.
 
 ![image](https://user-images.githubusercontent.com/70193389/185606172-0075fd8e-96eb-4773-b44d-a356f6a55612.png)
 
-CNN feature detector
+**CNN feature detector
 
 
 A number of feature detectors are passed over the image, and a set of feature maps obtained as a result. These are the actual image pixels of an image, hence in effect the size of the image is reduced allowing for less computational expense, and while yet still preserving the important
 information and spatial information of an image. This also allows for the defining features of specific classes to still be detected even if those objects were to appear in different positions within an image, e.g. bottom left corner or top right corner. 
 
-Pooling Layer – this layer further reduces the size of the feature maps, further discarding irrelevant information from the image where features are not detected and selecting
+**Pooling Layer – this layer further reduces the size of the feature maps, further discarding irrelevant information from the image where features are not detected and selecting
 only the regions with the highest feature occurrences. This also assists in accounting for slight distortions or variances amongst different objects of the same class, i.e. different
 objects of the same class will have approximately similar pooled feature maps. An illustration of the pooling process is shown
 
